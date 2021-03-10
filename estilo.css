@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.container-login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.o-container-img {
+    width: 10rem;
+}
+.o-img {
+    width: 100%;
+}
+.o-form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.o-button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.o-button:hover {
+    background-color: white;
+    color:black;
+    border: 2px solid #008CBA;
+  }
+  
+.o-title {
+    color: #008CBA;
+    text-align: center;
+}
+.o-otro{
+    color: #FC860D
+}
+.o-close {
+    color:red;
+    text-align: center;
+}
+.o-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #008CBA;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+}
+.o-icon {
+    width: 60%;
+}
+.container-perfil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 20%;
+}
+.o-container-body{
+    display: flex;
+    padding: 2rem;
+
+}
+.container-tabla{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #EAEAEA;
+}
+.o-icons{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.o-imgv{
+    width: 15%;
+}
+.o-nav-img{
+    width: 50%;
+}
+.material-icons{
+    font-size:38px!important;
+}
+table {
+    width: 60%!important;
+    border: 2px solid #000!important;
+ }
+ th, td {
+    width: 25%!important;
+    text-align: center!important;
+    vertical-align: top!important;
+    border: 1px solid #000!important;
+    border-spacing:0 !important;
+ }
+ .buttoningresar{
+     background-color: #F47520;
+ }
+ .buttoningresar:hover {
+    background-color: white;
+    color:black;
+    border: 2px solid #F47520;
+  }
+ 
